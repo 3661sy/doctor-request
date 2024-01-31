@@ -1,0 +1,194 @@
+[
+  {
+    "model": "doctor.Patient",
+    "fields": {
+      "name": "김환자"
+    }
+  },
+  {
+    "model": "doctor.Patient",
+    "fields": {
+      "name": "이환자"
+    }
+  },
+  {
+    "model": "doctor.Patient",
+    "fields": {
+      "name": "박환자"
+    }
+  },
+  {
+    "model": "doctor.Department",
+    "fields": {
+      "name": "정형외과",
+      "search_name": "정형외과",
+      "is_reimbursement": true
+    }
+  },
+  {
+    "model": "doctor.Department",
+    "fields": {
+      "name": "한의학과",
+      "search_name": "한의사",
+      "is_reimbursement": true
+    }
+  },
+  {
+    "model": "doctor.Department",
+    "fields": {
+      "name": "일반의",
+      "search_name": "일반의",
+      "is_reimbursement": true
+    }
+  },
+  {
+    "model": "doctor.Department",
+    "fields": {
+      "name": "내과",
+      "search_name": "내과",
+      "is_reimbursement": true
+    }
+  },
+  {
+    "model": "doctor.Department",
+    "fields": {
+      "name": "다이어트약",
+      "search_name": "다이어트약",
+      "is_reimbursement": false
+    }
+  },
+  {
+    "model": "doctor.Doctor",
+    "fields": {
+      "name": "손웅래",
+      "hospital_name": "테스트병원",
+      "department_set": [1, 4, 3]
+    }
+  },
+  {
+    "model": "doctor.Doctor",
+    "fields": {
+      "name": "선재원",
+      "hospital_name": "시험병원",
+      "department_set": [2, 3, 5]
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 1,
+      "opened_time": "09:00:00",
+      "closed_time": "19:00:00",
+      "day_type": 0
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 1,
+      "opened_time": "09:00:00",
+      "closed_time": "19:00:00",
+      "day_type": 1
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 1,
+      "opened_time": "09:00:00",
+      "closed_time": "19:00:00",
+      "day_type": 2
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 1,
+      "opened_time": "09:00:00",
+      "closed_time": "19:00:00",
+      "day_type": 3
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 1,
+      "opened_time": "09:00:00",
+      "closed_time": "19:00:00",
+      "day_type": 4
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 1,
+      "opened_time": "11:00:00",
+      "closed_time": "12:00:00",
+      "day_type": 7
+    }
+  },
+
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 2,
+      "opened_time": "08:00:00",
+      "closed_time": "17:00:00",
+      "day_type": 0
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 2,
+      "opened_time": "08:00:00",
+      "closed_time": "17:00:00",
+      "day_type": 1
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 2,
+      "opened_time": "08:00:00",
+      "closed_time": "17:00:00",
+      "day_type": 2
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 2,
+      "opened_time": "08:00:00",
+      "closed_time": "17:00:00",
+      "day_type": 3
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 2,
+      "opened_time": "08:00:00",
+      "closed_time": "17:00:00",
+      "day_type": 4
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 2,
+      "opened_time": "08:00:00",
+      "closed_time": "13:00:00",
+      "day_type": 5
+    }
+  },
+  {
+    "model": "doctor.OpenHours",
+    "fields": {
+      "doctor_id": 2,
+      "opened_time": "12:00:00",
+      "closed_time": "13:00:00",
+      "day_type": 7
+    }
+  }
+]
